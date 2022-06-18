@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Facalities</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="help2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+       <nav>
+         <a href="index.html"><img class="rudra" src="logo_dav.jpeg" width="20" height="80"></a>
+         <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="facilites.html">FACILITIES</a></li>
+             <li><a href="test.html">FACULTY LISIT</a></li>
+             <li><a href="blog.html">BLOG</a></li>
+             <li><a href="gallery.html">GALLERY</a></li>
+             <li><a href="contact.html">CONTACT US</a></li>
+             <li><a href="index1.html">Testimonial</a></li>
+           </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+    </section>
+
+    <section class="faculty">
+    <div class="wrapper1">
+      <div class="outer">
+        <div class="card1" style="--delay:-1;">
+          <div class="content1">
+            <div class="img"><img src="libraries.jpeg" alt=""></div>
+            <div class="details1">
+              <span class="name1">Libraries</span>
+            </div>
+          </div>
+        </div>
+        <div class="card1" style="--delay:0;">
+          <div class="content1">
+            <div class="img"><img src="labs.jpeg" alt=""></div>
+            <div class="details1">
+              <span class="name1">lab</span>
+            </div>
+          </div>
+        </div>
+        <div class="card1" style="--delay:1;">
+          <div class="content1">
+            <div class="img"><img src="sports.jpeg" alt=""></div>
+            <div class="details1">
+              <span class="name1">Ground</span>
+            </div>
+          </div>
+        </div>
+        <div class="card1" style="--delay:2;">
+          <div class="content1">
+            <div class="img"><img src="swimming.jpeg" alt=""></div>
+            <div class="details1">
+              <span class="name1">swimming pool</span>
+            </div>
+          </div>
+        </div>
+        <div class="card1" style="--delay:2;">
+          <div class="content1">
+            <div class="img"><img src="park.jpeg" alt=""></div>
+            <div class="details1">
+              <span class="name1">park</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="footer1">
+      <footer>
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="facilites.html">FACILITIES</a></li>
+          <li><a href="test.html">FACULTY LISIT</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="index1.html">Testimonial</a></li>
+        </ul>
+        <p>Join D.A.V to make investment worth.All Rights Reserved</p>
+      </footer>
+    </section>
+
+    <script>
+      var navLinks =document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+  </body>
+</html>

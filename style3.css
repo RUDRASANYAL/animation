@@ -1,0 +1,62 @@
+body{
+  background-color: black;
+  background-size: cover;
+}
+
+.h1-slide{
+  position: relative;
+  width: 754px;
+  height: 292px;
+  border-radius: 50px;
+  margin: 115px auto 0;
+}
+.h1-slide .hi-next,
+.h1-slide .hi-prev{
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  color:black;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.h1-slide .hi-next:hover,
+.h1-slide .hi-prev:hover{
+  opacity: 1;
+  background-color: #fff;
+}
+.h1-slide .h1-prev{left:59px;}
+.h1-slide .h1-prev::befor{
+  content:'<';}
+  .h1-slide .h1-next{right:-59px;}
+  .h1-slide .h1-next::befor{
+    content:'>';}
+.hi-slide > ul{
+  list-style: none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 0;
+  padding: 0;
+
+}
+.hi-slide > ul >li{
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 322px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #fff;
+  cursor: pointer;
+  background-color: #333;
+
+}
